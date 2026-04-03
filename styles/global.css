@@ -1,0 +1,23 @@
+/* ----------------------------------------- */
+/* SOVRASCRITTURA Bootstrap base ----------- */
+/* Font size base (Bootstrap default è 16px) */
+/* ----------------------------------------- */
+html {
+  scrollbar-gutter: stable; /* KEVIN */
+}
+body {
+  font-size: 20px;
+  
+  /* se il body ha 3 elementi (nav, main, footer) e voglio che il footer stia sempre in fondo */
+  min-block-size: 100svh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+/* Foto profilo circolare */
+.profile-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+}
